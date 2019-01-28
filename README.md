@@ -59,4 +59,4 @@ table "songs"
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/rails-cru-form_for-lab'>CRU Rails Lab </a> on Learn.co and start learning to code for free.</p>
 
-rails g resource Artist name:string artist_id:integer genre_id:integer --no-test-framework
+rails g resource Artist name:string bio:text --no-test-framework
